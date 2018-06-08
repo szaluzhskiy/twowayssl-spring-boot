@@ -1,0 +1,11 @@
+server:
+  port: 0
+
+foo.ribbon.listOfServers: localhost:8080
+
+logging:
+  level:
+    io.pivotal.boot.clientauth: TRACE
+    javax.net.ssl: TRACE
+
+hystrix.command.default.execution.timeout.enabled: false
